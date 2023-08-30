@@ -19,6 +19,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material.icons.rounded.Clear
+import androidx.compose.material3.Button
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
@@ -252,6 +253,7 @@ fun Autocomplete() {
             searchQuery = it
         }
     )
+    Button(onClick = { /* Do something! */ }) { Text("pedir sobremesa") }
 }
 @Preview(showBackground = true, widthDp = 350, heightDp = 450)
 @Composable
